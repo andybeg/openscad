@@ -10,9 +10,6 @@
 [submodule "FunctionalOpenSCAD"]
 	path = FunctionalOpenSCAD
 	url = https://github.com/thehans/FunctionalOpenSCAD.git
-[submodule "NopSCADlib"]
-	path = NopSCADlib
-	url = https://github.com/nophead/NopSCADlib.git
 [submodule "lib/dotSCAD"]
 	path = lib/dotSCAD
 	url = https://github.com/JustinSDK/dotSCAD.git
@@ -22,3 +19,6 @@
 [submodule "lib/MarksEnclosureHelper"]
 	path = lib/MarksEnclosureHelper
 	url = https://github.com/sbambach/MarksEnclosureHelper.git
+[submodule "lib/FunctionalOpenSCAD"]
+	path = lib/FunctionalOpenSCAD
+	url = https://github.com/thehans/FunctionalOpenSCAD.git
