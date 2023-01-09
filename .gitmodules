@@ -7,9 +7,6 @@
 [submodule "lib/bolts"]
 	path = lib/bolts
 	url = https://github.com/boltsparts/BOLTS_archive.git
-[submodule "FunctionalOpenSCAD"]
-	path = FunctionalOpenSCAD
-	url = https://github.com/thehans/FunctionalOpenSCAD.git
 [submodule "lib/dotSCAD"]
 	path = lib/dotSCAD
 	url = https://github.com/JustinSDK/dotSCAD.git
