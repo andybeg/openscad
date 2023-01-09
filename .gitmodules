@@ -1,0 +1,24 @@
+[submodule "lib/BOSL"]
+	path = lib/BOSL
+	url = https://github.com/revarbat/BOSL.git
+[submodule "lib/BOSL2"]
+	path = lib/BOSL2
+	url = https://github.com/revarbat/BOSL2.git
+[submodule "lib/bolts"]
+	path = lib/bolts
+	url = https://github.com/boltsparts/BOLTS_archive.git
+[submodule "FunctionalOpenSCAD"]
+	path = FunctionalOpenSCAD
+	url = https://github.com/thehans/FunctionalOpenSCAD.git
+[submodule "NopSCADlib"]
+	path = NopSCADlib
+	url = https://github.com/nophead/NopSCADlib.git
+[submodule "lib/dotSCAD"]
+	path = lib/dotSCAD
+	url = https://github.com/JustinSDK/dotSCAD.git
+[submodule "lib/funcutils"]
+	path = lib/funcutils
+	url = https://github.com/thehans/funcutils.git
+[submodule "lib/MarksEnclosureHelper"]
+	path = lib/MarksEnclosureHelper
+	url = https://github.com/sbambach/MarksEnclosureHelper.git
