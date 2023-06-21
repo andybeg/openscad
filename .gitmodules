@@ -19,3 +19,6 @@
 [submodule "lib/FunctionalOpenSCAD"]
 	path = lib/FunctionalOpenSCAD
 	url = https://github.com/thehans/FunctionalOpenSCAD.git
+[submodule "lib/SBC_Case_Builder"]
+	path = lib/SBC_Case_Builder
+	url = https://github.com/hominoids/SBC_Case_Builder.git
