@@ -1,11 +1,12 @@
 $fn=100;
-dim=300;
+dimX=70;
+dimY=50;
 
-length = dim;
-width= dim;
+length = dimX;
+width= dimY;
 height = 3;
 radius = 10;
-dots=29;
+dots=10;
 dRadius = 2*radius;
 difference() {
     minkowski() {

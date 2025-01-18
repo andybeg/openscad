@@ -22,3 +22,12 @@
 [submodule "lib/SBC_Case_Builder"]
 	path = lib/SBC_Case_Builder
 	url = https://github.com/hominoids/SBC_Case_Builder.git
+[submodule "A2D"]
+	path = A2D
+	url = https://github.com/ridercz/A2D.git
+[submodule "GoProScad"]
+	path = GoProScad
+	url = https://github.com/ridercz/GoProScad.git
+[submodule "Round-Anything"]
+	path = Round-Anything
+	url = https://github.com/Irev-Dev/Round-Anything.git
