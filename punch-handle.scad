@@ -1,21 +1,21 @@
 // Цилиндр для ручки пробойника
 
 // Параметры основного цилиндра
-length = 100;  // Длина: 10 см (100 мм)
+length = 121;  // Длина: 10 см (100 мм)
 diameter = 20; // Диаметр: 20 мм
 
 // Параметры малых цилиндров
-small_diameter = 5;   // Диаметр: 5 мм
+small_diameter = 7;   // Диаметр: 5 мм
 small_radius = small_diameter / 2; // Радиус для сфер
 
 // Расстояние между цилиндрами
-distance = 100; // 10 см (100 мм)
+distance = 50; // 10 см (100 мм)
 
 // Высота связующих фигур
-transition_height = 10; // 10 мм
+transition_height = 12; // 10 мм
 
 // Смещение для высоты малых цилиндров
-small_cylinder_offset = 10; // 10 мм
+small_cylinder_offset = 11.5; // Расстояние от связующего элемента до крайней точки сферы = 27 мм
 
 // Высота малых цилиндров (связующая фигура + смещение)
 small_length = transition_height + small_cylinder_offset;
@@ -23,7 +23,7 @@ small_length = transition_height + small_cylinder_offset;
 fn = 100;      // Количество граней для гладкости
 
 // Поворот всей фигуры на 90° и размещение так, чтобы касалась горизонтальной плоскости
-translate([0, 0, diameter/2])
+//translate([0, 0, diameter/2])
 rotate([0, 90, 0]) {
     // Основной цилиндр
     cylinder(h = length, d = diameter, center = false, $fn = fn);
