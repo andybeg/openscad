@@ -1,9 +1,10 @@
-holesX = 10;
-holesY = 20;
-holeR = 2;
-boxX = 75-2*holeR;
 $fn=100;
-boxY = 140-2*holeR;
+holesX = 11;
+holesY = 20;
+holeR = 2.75/2;
+bigHoleR = 3.5;
+boxX = bigHoleR*2 * holesX;
+boxY = bigHoleR*2 * holesY;
 boxZ = 3;
 stepX = boxX/holesX;
 stepY = boxY/holesY;
@@ -11,8 +12,8 @@ startX = stepX/2;
 startY = stepY/2;
 module plate(){
     minkowski() {
-    cube([boxX,boxY,boxZ],false);
-    cylinder(r=2, h=0.01);
+    cube([boxX - bigHoleR*2,boxY - bigHoleR*2,boxZ],false);
+    cylinder(r=bigHoleR, h=0.01);
     };
 }
 module holes(){
@@ -24,6 +25,6 @@ module holes(){
 
 }
 difference(){
-    plate();
+    translate([bigHoleR,bigHoleR,0]) plate();
     holes();
 }
